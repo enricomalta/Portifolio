@@ -1,2 +1,7 @@
 # Secrets
 .env*
+
+# Ignore
+.next
+node_modules
+projects
