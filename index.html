@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="style.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -18,15 +21,18 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo"><p>@<span style="color: #FF7F50;">root</span>:/$py enrico.py</p></span> </a>
+        <a href="#home" class="logo">
+            <span class="logo-mark">EM</span>
+            <span class="logo-copy">Enrico Malta</span>
+        </a>
         
         <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
         
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">Sobre</a>
             <a href="#skills">Habilidades</a>
             <a href="#projects">Projetos</a>
+            <a href="#about">Sobre</a>
             <a href="#contact">Contato</a>
 
             <span class="active-nav"></span>
@@ -37,24 +43,86 @@
     <!-- HOME SECTION -->
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h1>Olá, eu sou <span>Enrico Malta</span></h1>
-            <div class="text-animation">
-                <h3>Desenvolvedor Full-Stack</h3>
-            </div>
-            <p>
-                Especializado em C#, #Py, #Js, #Lua, #SQL
-            </p>
+        <div class="home-grid">
+            <div class="home-content">
+                <div class="text-animation">
+                    <h3>Full-stack, automação, criptografia, IA e software crítico</h3>
+                </div>
+                <p>
+                    Desenvolvo aplicações web, mobile e desktop, sistemas de automação e produtos com foco em performance, segurança, experiência do usuário e clareza técnica.
+                </p>
 
-            <div class="btn-box">
-                <a href="#contact" class="btn">Fale Comigo!</a>
-                <a href="#projects" class="btn">Projetos!</a>
+                <div class="hero-highlights">
+                    <div class="hero-pill">
+                        <i class='bx bx-shield-quarter'></i>
+                        <span>Segurança e arquitetura</span>
+                    </div>
+                    <div class="hero-pill">
+                        <i class='bx bx-code-alt'></i>
+                        <span>Documentação e padrões</span>
+                    </div>
+                    <div class="hero-pill">
+                        <i class='bx bx-code-alt'></i>
+                        <span>Entrega full-stack</span>
+                    </div>
+                    <div class="hero-pill">
+                        <i class='bx bx-line-chart'></i>
+                        <span>Produtos orientados a resultado</span>
+                    </div>
+                </div>
+
+                <div class="btn-box">
+                    <a href="#contact" class="btn">Fale Comigo</a>
+                    <a href="#projects" class="btn">Ver Projetos</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <strong>8+</strong>
+                        <span>produtos e protótipos publicados</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>Full-stack</strong>
+                        <span>web, automação, IA e integrações</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>Foco</strong>
+                        <span>performance, UX e qualidade de código</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-panel">
+                <div class="hero-panel-card hero-panel-intro">
+                    <span class="panel-label">Perfil</span>
+                    <h2>Desenvolvedor com visão de negócio e profundidade técnica.</h2>
+                    <p>
+                        Procuro os problemas do seu negócio e busco soluções ou maior agilidade nos fluxos. Atuação em frontend, backend, automação, integrações críticas e produtos com monetização real.
+                    </p>
+                </div>
+
+                <div class="hero-panel-card hero-panel-stack">
+                    <span class="panel-label">Stack principal</span>
+                    <ul class="stack-list">
+                        <li>JavaScript, TypeScript, Python, Lua</li>
+                        <li>Next.js, React, Node.js, Firebase</li>
+                        <li>APIs, automação, IA e software corporativo</li>
+                    </ul>
+                </div>
+
+                <div class="hero-panel-card hero-panel-availability">
+                    <span class="panel-label">Disponibilidade</span>
+                    <div class="availability-row">
+                        <span class="availability-dot"></span>
+                        <p>Disponível para projetos, freelas e oportunidades estratégicas.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="home-sci">
-            <a href="https://www.linkedin.com/in/enrico-malta-b1b142219/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/enricomalta"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/enrico-malta1/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/enricomalta" target="_blank"><i class='bx bxl-github'></i></a>
         </div>
 
         <div class="home-imgHover">
@@ -63,36 +131,13 @@
         
     </section>
 
-    <!-- ABOUT SECTION -->
-
-    <section class="about" id="about">
-        <h2 class="heading">Um pouco sobre <span>Mim</span></h2>
-
-
-        <div class="about-img">
-            <img src="/img/3x4.jpg" alt="">
-            <span class="circle-spin"></span>
-        </div>
-
-
-        <div class="about-content">
-            <h3>Minha Trajetória como Desenvolvedor</h3>
-            <p>
-                Permita-me compartilhar um pouco da minha jornada como desenvolvedor e as experiências que moldaram meu percurso.
-            </p>
-
-            <div class="btn-box btns">
-                <a href="saiba.html" class="btn">Saiba Mais!</a>
-            </div>
-        </div>
-    </section>
-
 
 
     <!-- SKILLS SECTION -->
 
     <section class="skills" id="skills">
         <h2 class="heading">Minhas<span> Habilidades</span></h2>
+        <p class="section-intro">Tecnologias e competências que sustentam a entrega de produtos robustos, escaláveis e bem resolvidos.</p>
 
         <div class="skills-row">
             <div class="skills-column">
@@ -101,12 +146,7 @@
                 <div class="skills-box">
                     <div class="skills-content">
                         <div class="progress">
-                            <h3>HTML <span>100%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>CSS <span>100%</span></h3>
+                            <h3>JavaScript <span>100%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -116,12 +156,17 @@
                         </div>
 
                         <div class="progress">
-                            <h3>JavaScript <span>90%</span></h3>
+                            <h3>Python <span>100%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
                         <div class="progress">
-                            <h3>Python <span>70%</span></h3>
+                            <h3>C# <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C++ <span>10%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -173,24 +218,99 @@
 
     <!--   PROJECTS SECTION  -->
     <section class="projects" id="projects">
-        <h2 class="heading">Meus <span>Projetos</span></h2>
+        <h2 class="heading">Meus Projetos<span> WEB</span></h2>
+        <p class="section-intro">Seleção de produtos com foco em experiência, arquitetura, automação e integração com serviços reais.</p>
         <div class="projects-row">
-            <div class="projects-column">
+            <div class="project-card">
+                <span class="project-tag">Sistema de Pagamentos</span>
+                <img src="/img/bolao.png" alt="Logo Bolão Insanos">
+                <h3>Bolão Inssanos</h3>
+                <p>Plataforma completa de bolões com operação financeira, dashboards e stack moderna.</p>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">E-commerce</span>
+                <img src="/img/sabordememorias.png" alt="Logo Sabor de Memórias">
+                <h3>Sabor de Memórias</h3>
+                <p>Experiência híbrida entre presente físico e jornada digital personalizada.</p>
+            </div>
+        </div>
 
-                <div class="projects-box">
-                    <div class="projects-img">
-                         <img src="./img/project.png" alt="" id="tablet">
-                    </div>
-                </div>
+        <div class="projects-row">
+            <div class="project-card">
+                <span class="project-tag">IA Integração</span>
+                <img src="/img/sonharai.png" alt="Logo SonharAI">
+                <h3>SonharAI</h3>
+                <p>Registro de sonhos com análise inteligente, histórico, assinatura e painel do usuário.</p>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">Legal Tech</span>
+                <img src="/img/aion.png" alt="Logo AI.On">
+                <h3>AI.On</h3>
+                <p>Gestão de prazos e automação para advocacia com integrações e IA aplicada.</p>
+            </div>
+        </div>
+
+        <div class="projects-row">
+            <div class="project-card">
+                <span class="project-tag">Automação</span>
+                <img src="/img/naregua.png" alt="Logo NaRegua">
+                <h3>NaRegua</h3>
+                <p>Agendamento automatizado, monitoramento de finanças para barbeiros.</p>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">Motor de Processamento</span>
+                <img src="/img/goodpdf.png" alt="Logo GoodPDF">
+                <h3>GoodPDF</h3>
+                <p>Ferramenta para processamento e manipulação de documentos PDF gratuita.</p>
+            </div>
+        </div>
+
+        <div class="projects-row">
+            <div class="project-card">
+                <span class="project-tag">Algoritmo Logistica</span>
+                <img src="/img/smartroute.png" alt="Logo SmartRoute">
+                <h3>SmartRoute</h3>
+                <p>Ferramenta gratuita com algoritmo para otimização de rotas e logística.</p>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">Motor de Processamento</span>
+                <img src="/img/goodpdf.png" alt="Logo GoodPDF">
+                <h3>GoodPDF</h3>
+                <p>Ferramenta para processamento e manipulação de documentos PDF gratuita.</p>
+            </div>
+        </div>
+
+
+        <h2 class="heading"><span>Softwares</span></h2>
+        <div class="projects-row">
+            <div class="project-card">
+                <span class="project-tag">Data</span>
+                <img src="/img/aracbot.png" alt="Logo AracBot">
+                <h3>AracBot</h3>
+                <p>Análise preditiva de mercado com múltiplas fontes, indicadores e machine learning.</p>
+            </div>
+            <div class="project-card">
+                <span class="project-tag">GovTech</span>
+                <img src="/img/autogov.png" alt="Logo AutoGOV.BR">
+                <h3>AutoGOV.BR</h3>
+                <p>Reconhecimento facial e validação documental para cenários críticos de atendimento.</p>
+            </div>
+        </div>
+
+        <h2 class="heading"><span>Jogos</span></h2>
+        <div class="projects-row">
+            <div class="project-card">
+                <span class="project-tag">FiveM</span>
+                <img src="/img/midnight.jpg" alt="Logo Midnight Brasil">
+                <h3>Midnight Brasil</h3>
+                <p>Servidor GTA RP com sistemas próprios, economia, interação social e expansão contínua.</p>
             </div>
 
-            <div class="projects-column">
-
-                <div class="projects-box">
-                    <div class="projects-img">
-                         <img src="" alt="" id="tablet">
-                    </div>
-                </div>
+            <div class="project-card">
+                <span class="project-tag">Web3</span>
+                <img src="/img/tonflower.png" alt="Logo TonFlower">
+                <h3>TonFlower</h3>
+                <p>Game blockchain para Telegram com autenticação, transações e regras seguras de backend.</p>
             </div>
 
         </div>
@@ -199,10 +319,36 @@
     </section>
 
 
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+        <h2 class="heading">Um pouco sobre o <span>Enrico</span></h2>
+
+
+        <div class="about-img">
+            <img src="/img/myphoto.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+
+        <div class="about-content">
+            <p>
+                Minha trajetória combina desenvolvimento prático, construção de produto, estudo contínuo e experiência em ambientes que exigem autonomia, clareza técnica e responsabilidade na execução.
+            </p>
+
+            <div class="btn-box btns">
+                <a href="sobre.html" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- CONTACT SECTION -->
 
     <section class="contact" id="contact">
         <h2 class="heading">Contate-<span>Me!</span></h2>
+        <p class="section-intro">Se você precisa de alguém para tirar um produto do papel ou elevar a qualidade técnica de um projeto em andamento, vamos conversar.</p>
 
         <form action="#">
             <div class="input-box">
@@ -246,7 +392,7 @@
 
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 by Enrico | All Rights Reserved.</p>
+            <p>Copyright &copy; 2025 by Enrico | All Rights Reserved.</p>
         </div>
 
         <div class="footer-iconTop">
@@ -254,7 +400,24 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-tech"></p>
+            <p id="modal-deploy"></p>
+            <div class="links-projects">
+                <a id="modal-link" href="" target="_blank" style="display: none;">Ver Projeto em Produção</a>
+                <a id="modal-white-papper" href="" target="_blank">Ver White Paper</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/section.js"></script>
+    <script src="/js/modal.js"></script>
 </body>
 
 </html>

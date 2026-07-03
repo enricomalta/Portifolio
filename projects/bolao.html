@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style-projects.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Bolão Inssanos</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">White Papper</a>
+    </header>
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <p>
+                O Inssanos é uma plataforma web completa de gestão de bolões de loterias da Caixa desenvolvida com foco
+                em segurança financeira, experiência do usuário e escalabilidade. Trata-se de um sistema full-stack que
+                permite aos usuários participarem de bolões, gerenciarem suas cotas, realizarem transações financeiras
+                seguras e interagir com um painel administrativo robusto. O projeto foi construído utilizando
+                tecnologias modernas e implementa práticas de segurança rigorosas, essenciais para aplicações que lidam
+                com dados sensíveis e transações monetárias.
+            </p>
+        </div>
+
+        <div class="stack-tech">
+            <h1>Stack Tecnológico e Arquitetura</h1>
+            <ul>
+                <li>Frontend: Next.js 14 com App Router, React 18, TypeScript, Tailwind CSS e Radix UI para componentes acessíveis e consistentes.</li>
+                <li>Backend: APIs RESTful construídas com Next.js API Routes, utilizando TypeScript para type safety.</li>
+                <li>Banco de Dados: Firestore (Firebase) para armazenamento NoSQL escalável, com Firebase Admin SDK para operações server-side.</li>
+                <li>Autenticação e Segurança: JWT tokens armazenados em cookies HTTP-Only, bcrypt para hashing de senhas, AES-256-CBC para criptografia de dados sensíveis (CPF, dados bancários), Cloudflare Turnstile para CAPTCHA, e rate limiting com LRU Cache.</li>
+                <li>Pagamentos: Integração com MercadoPago para processamento de pagamentos via PIX e cartão de crédito, incluindo webhooks para confirmação automática de transações.</li>
+                <li>Notificações: Firebase Cloud Messaging (FCM) para notificações push em tempo real, suportando múltiplos dispositivos por usuário.</li>
+                <li>Testes: Jest com jsdom para testes unitários e de integração, incluindo cobertura de código.</li>
+                <li>Outras Tecnologias: Socket.io para comunicação em tempo real, React Hook Form com Zod para validação client-side, date-fns para manipulação de datas, e Chart.js/Recharts para visualizações de dados.</li>
+            </ul>
+            <p>
+                A arquitetura segue o padrão serverless (Vercel-ready), com separação clara entre client e server-side logic. O projeto
+                utiliza hooks customizados (como useApi para requisições autenticadas com refresh automático de tokens) e contextos
+                React para gerenciamento de estado global (autenticação, notificações, configurações).
+            </p>
+        </div>
+
+        <div class="features">
+            <h1>Funcionalidades Principais</h1>
+            <ul>
+
+                <strong>Gestão de Usuários</strong>
+                <ul>
+                    <li>Registro e login com validação rigorosa (email, CPF, telefone).</li>
+                    <li>Verificação de documentos (RG/CPF) com upload de imagens e moderação administrativa.</li>
+                    <li>Sistema de permissões baseado em roles (user, admin, moderator) com controle granular de acesso.</li>
+                    <li>Perfil de usuário com atualização de dados, upload de avatar e histórico de transações.</li>
+                </ul>
+
+            
+                <strong>Sistema de Bolões</strong>
+                <ul>
+                    <li>Criação e edição de bolões por administradores, com tipos variados (caixa, organizado).</li>
+                    <li>Reserva e compra de cotas, com validação de disponibilidade e prevenção de fraudes.</li>
+                    <li>Resultados automáticos baseados em APIs externas de loteria (como Lotofácil, Mega-Sena).</li>
+                    <li>Visualização de cotas adquiridas, comprovantes e histórico de participação.</li>
+                </ul>
+                
+                
+                <strong>Transações Financeiras</strong>
+                <ul>
+                    <li>Depósitos via PIX e cartão de crédito através do MercadoPago.</li>
+                    <li>Saques com validação de saldo e limites diários.</li>
+                    <li>Carteira digital com saldo em tempo real.</li>
+                    <li>Histórico completo de transações com filtros e exportação.</li>
+                </ul>
+
+                <strong>Painel Administrativo</strong>
+                    <ul>
+                    <li>Dashboard com métricas em tempo real (usuários ativos, vendas, prêmios).</li>
+                    <li>Gerenciamento de usuários: ban/unban, edição de perfis, validação de documentos.</li>
+                    <li>Controle de bolões: criação, edição, monitoramento de vendas.</li>
+                    <li>Sistema de suporte com tickets, respostas administrativas e notificações.</li>
+                    <li>Relatórios e estatísticas com gráficos interativos.</li>
+                </ul>
+        
+            
+                <strong>Sistema de Notificações e Comunicação</strong>
+                <ul>
+                    <li>Notificações push via FCM para eventos importantes (ganhos, novos bolões, atualizações).</li>
+                    <li>Sistema de suporte integrado com chat/tickets.</li>
+                    <li>Alertas em tempo real para resultados de bolões.</li>
+                </ul>
+                
+            
+                <strong>Integrações Externas</strong>
+                <ul>
+                    <li>APIs de resultados de loteria para validação automática de prêmios.</li>
+                    <li>MercadoPago para pagamentos seguros.</li>
+                    <li>Firebase para autenticação, banco de dados e notificações.</li>
+                </ul>
+                
+            </ul>
+        </div>
+
+        <div class="segurity">
+            <h1>Medidas de Segurança Implementadas</h1>
+            <p>A segurança é o pilar fundamental do projeto, com múltiplas camadas de proteção contra ameaças comuns em sistemas financeiros:</p>
+            <ul>
+                <li>
+                    <strong>Autenticação e Autorização</strong>
+                    <ul>
+                        <li>JWT tokens em cookies HTTP-Only (inacessíveis via JavaScript, prevenindo XSS).</li>
+                        <li>Refresh tokens armazenados separadamente com expiração curta.</li>
+                        <li>Sistema de permissões baseado em roles com verificação server-side em todas as rotas.</li>
+                        <li>Logout automático em sessões suspeitas.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Proteção contra Ataques</strong>
+                    <ul>
+                        <li>Rate Limiting: Limitação de requisições por IP usando LRU Cache (ex.: 5 tentativas de login por minuto).</li>
+                        <li>CAPTCHA: Cloudflare Turnstile integrado em formulários críticos (login, registro).</li>
+                        <li>Sanitização de Dados: Remoção de caracteres perigosos e prevenção de XSS/SQL Injection em todas as entradas.</li>
+                        <li>Validação Rigorosa: Uso de Zod schemas para validação server-side de todos os dados recebidos.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Criptografia e Proteção de Dados</strong>
+                    <ul>
+                        <li>Hashing de senhas com bcrypt (12 rounds de salt).</li>
+                        <li>Criptografia AES-256-CBC para dados sensíveis (CPF, dados bancários) no banco de dados.</li>
+                        <li>Timeout em operações de descriptografia para prevenir DoS.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Auditoria e Monitoramento</strong>
+                    <ul>
+                        <li>Audit Logs: Registro completo de todas as ações críticas (logins, transações, mudanças administrativas) com IP, timestamp e dados antes/depois.</li>
+                        <li>Logs de moderação para ações administrativas.</li>
+                        <li>Sistema de alertas para atividades suspeitas.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Segurança de Infraestrutura</strong>
+                    <ul>
+                        <li>Configuração Next.js com headers de segurança (CSP, HSTS).</li>
+                        <li>Service Workers para cache offline seguro.</li>
+                        <li>Validação de tokens em todas as requisições API.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h1>Boas Práticas Implementadas</h1>
+            <ul>
+                <li>TypeScript Estrito: Uso de tipos para prevenir erros em runtime, com strictNullChecks habilitado.</li>
+                <li>Testes Automatizados: Cobertura de testes unitários e de integração com Jest, focando em APIs críticas.</li>
+                <li>Validação de Dados: Zod schemas para validação consistente em client e server.</li>
+                <li>Gerenciamento de Estado: Contextos React para estado global, com hooks customizados para lógica reutilizável.</li>
+                <li>Performance: Otimização com Next.js (SSR, ISR), lazy loading de componentes e cache inteligente.</li>
+                <li>Acessibilidade: Componentes Radix UI para conformidade com WCAG.</li>
+                <li>Documentação: Código bem comentado com JSDoc, e estrutura modular para manutenção.</li>
+                <li>CI/CD: Scripts npm para build, lint e testes, preparados para deployment em Vercel.</li>
+            </ul>
+        </div>
+
+        <div class="experiencia">
+            <h1>Experiência e Competências Demonstradas</h1>
+            <p>Este projeto comprova expertise avançada em desenvolvimento full-stack seguro, com ênfase em aplicações financeiras. As habilidades demonstradas incluem:</p>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Competências Técnicas</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>Desenvolvimento Full-Stack <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Segurança de Aplicações <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Integração de APIs <span>90%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Gerenciamento de Estado e UI/UX <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Banco de Dados NoSQL <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Testes e Qualidade <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Deploy e Monitoramento <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>Resolução de Problemas Complexos <span>100%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Enrico | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="index.html"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
