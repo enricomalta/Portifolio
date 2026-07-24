@@ -499,11 +499,11 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 60%;
+    width: 80%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
-    width: 10%;
+    width: 30%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span,
@@ -512,6 +512,63 @@ span {
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span,
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
     width: 100%;
+}
+
+.skills-column:nth-child(3) .skills-content .progress:nth-child(1) .bar span {
+    width: 100%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(2) .bar span {
+    width: 100%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(3) .bar span {
+    width: 100%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(4) .bar span {
+    width: 80%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(5) .bar span {
+    width: 60%;
+}
+.skills-column:nth-child(3) .skills-content .progress:nth-child(6) .bar span {
+    width: 60%;
+}
+
+.skills-column:nth-child(4) .skills-content .progress:nth-child(1) .bar span,
+.skills-column:nth-child(4) .skills-content .progress:nth-child(2) .bar span,
+.skills-column:nth-child(4) .skills-content .progress:nth-child(3) .bar span,
+.skills-column:nth-child(4) .skills-content .progress:nth-child(4) .bar span,
+.skills-column:nth-child(4) .skills-content .progress:nth-child(5) .bar span,
+.skills-column:nth-child(4) .skills-content .progress:nth-child(6) .bar span {
+    width: 100%;
+}
+
+.skills-column:nth-child(5) .skills-content .progress:nth-child(1) .bar span,
+.skills-column:nth-child(5) .skills-content .progress:nth-child(2) .bar span,
+.skills-column:nth-child(5) .skills-content .progress:nth-child(3) .bar span,
+.skills-column:nth-child(5) .skills-content .progress:nth-child(4) .bar span,
+.skills-column:nth-child(5) .skills-content .progress:nth-child(5) .bar span {
+    width: 100%;
+}
+.skills-column:nth-child(5) .skills-content .progress:nth-child(6) .bar span {
+    width: 10%;
+}
+
+
+.skills-column:nth-child(6) .skills-content .progress:nth-child(1) .bar span,
+.skills-column:nth-child(6) .skills-content .progress:nth-child(2) .bar span,
+.skills-column:nth-child(6) .skills-content .progress:nth-child(3) .bar span,
+.skills-column:nth-child(6) .skills-content .progress:nth-child(4) .bar span,
+.skills-column:nth-child(6) .skills-content .progress:nth-child(5) .bar span,
+.skills-column:nth-child(6) .skills-content .progress:nth-child(6) .bar span {
+    width: 100%;
+}
+
+
+.skills-column:nth-child(7) .skills-content .progress:nth-child(1) .bar span {
+    width: 50%;
+}
+.skills-column:nth-child(7) .skills-content .progress:nth-child(2) .bar span {
+    width: 10%;
 }
 
 .projects {

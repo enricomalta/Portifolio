@@ -57,16 +57,16 @@ export default function Home() {
 
             <div className="hero-stats">
               <div className="stat-card">
-                <strong>8+</strong>
+                <strong>11+</strong>
                 <span>produtos e protótipos publicados</span>
               </div>
               <div className="stat-card">
                 <strong>Full-stack</strong>
-                <span>web, automação, IA e integrações</span>
+                <span>web, desktop, mobile, automação, IA e integrações</span>
               </div>
               <div className="stat-card">
                 <strong>Foco</strong>
-                <span>performance, UX e qualidade de código</span>
+                <span>clean code, performance, UX e qualidade de código</span>
               </div>
             </div>
           </div>
@@ -83,8 +83,8 @@ export default function Home() {
             <div className="hero-panel-card hero-panel-stack">
               <span className="panel-label">Stack principal</span>
               <ul className="stack-list">
-                <li>JavaScript, TypeScript, Python, Lua</li>
-                <li>Next.js, React, Node.js, Firebase</li>
+                <li>JavaScript, TypeScript, Python, C#,Lua</li>
+                <li>Next.js, React, Node.js, Firebase, MySQL</li>
                 <li>APIs, automação, IA e software corporativo</li>
               </ul>
             </div>
@@ -93,7 +93,7 @@ export default function Home() {
               <span className="panel-label">Disponibilidade</span>
               <div className="availability-row">
                 <span className="availability-dot"></span>
-                <p>Disponível para projetos, freelas e oportunidades estratégicas.</p>
+                <p>Disponível para contrato, projetos, freelas e oportunidades estratégicas.</p>
               </div>
             </div>
           </div>
@@ -134,12 +134,12 @@ export default function Home() {
                 </div>
 
                 <div className="progress">
-                  <h3>C# <span>60%</span></h3>
+                  <h3>C# <span>80%</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>C++ <span>10%</span></h3>
+                  <h3>C++ <span>30%</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
               </div>
@@ -177,6 +177,188 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+           <div className="skills-column">
+            <h3 className="title">Front-End Skills</h3>
+            <div className="skills-box">
+              <div className="skills-content">
+
+                <div className="progress">
+                  <h3>Figma<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>React<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Tailwild<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Next.js<span>80%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Three.js<span>60%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Canvas<span>60%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+
+
+              </div>
+              
+            </div>
+          </div>
+
+          <div className="skills-column">
+            <h3 className="title">Back-End Skills</h3>
+            <div className="skills-box">
+              <div className="skills-content">
+
+                <div className="progress">
+                  <h3>Node.js<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Express.js<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>REST APIs<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>Autenticação JWT<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Middleware<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                  <h3>WebSockets<span>100%</span></h3>
+                  <div className="bar"><span></span></div>
+                </div>
+
+
+
+              </div>
+              
+            </div>
+          </div>
+
+          <div className="skills-column">
+            <h3 className="title">CyberSecurity Skills</h3>
+            <div className="skills-box">
+              <div className="skills-content">
+
+                <div className="progress">
+                    <h3>Criptografia<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Segurança em APIs<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Controle de acesso<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Hardening<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>OWASP Top 10<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Wireshark<span>10%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+          <div className="skills-column">
+            <h3 className="title">Banco de Dados Skills</h3>
+            <div className="skills-box">
+              <div className="skills-content">
+
+                <div className="progress">
+                    <h3>Firebase<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Supabase<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>MySQL/PostgreSQL<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>MongoDB<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>SQL Server<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>PL/SQL<span>100%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="skills-column">
+            <h3 className="title">Lib Skills</h3>
+            <div className="skills-box">
+              <div className="skills-content">
+
+                <div className="progress">
+                    <h3>OpenCV<span>50%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+                <div className="progress">
+                    <h3>Scilab<span>10%</span></h3>
+                    <div className="bar"><span></span></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -201,13 +383,13 @@ export default function Home() {
 
         <div className="projects-row">
           <div className="project-card">
-            <span className="project-tag">IA Integração</span>
+            <span className="project-tag">Análise com Deep Learning</span>
             <img src="/img/sonharai.png" alt="Logo SonharAI" />
             <h3>SonharAI</h3>
             <p>Registro de sonhos com análise inteligente, histórico, assinatura e painel do usuário.</p>
           </div>
           <div className="project-card">
-            <span className="project-tag">Legal Tech</span>
+            <span className="project-tag">Sistema para Advogados</span>
             <img src="/img/aion.png" alt="Logo AI.On" />
             <h3>AI.On</h3>
             <p>Gestão de prazos e automação para advocacia com integrações e IA aplicada.</p>
@@ -216,7 +398,7 @@ export default function Home() {
 
         <div className="projects-row">
           <div className="project-card">
-            <span className="project-tag">Automação</span>
+            <span className="project-tag">Sistema para Barbeiros - Automação</span>
             <img src="/img/naregua.png" alt="Logo NaRegua" />
             <h3>NaRegua</h3>
             <p>Agendamento automatizado, monitoramento de finanças para barbeiros.</p>
@@ -231,29 +413,29 @@ export default function Home() {
 
         <div className="projects-row">
           <div className="project-card">
-            <span className="project-tag">Algoritmo Logistica</span>
+            <span className="project-tag">Algoritmo de Rotas - Logística</span>
             <img src="/img/smartroute.png" alt="Logo SmartRoute" />
             <h3>SmartRoute</h3>
             <p>Ferramenta gratuita com algoritmo para otimização de rotas e logística.</p>
           </div>
           <div className="project-card">
-            <span className="project-tag">Motor de Processamento</span>
-            <img src="/img/goodpdf.png" alt="Logo GoodPDF" />
-            <h3>GoodPDF</h3>
-            <p>Ferramenta para processamento e manipulação de documentos PDF gratuita.</p>
+            <span className="project-tag">Análise com Machine Learning</span>
+            <img src="/img/fiscalia.png" alt="Logo Fiscal-IA" />
+            <h3>Fiscal-IA</h3>
+            <p>Ferramenta de automação fiscal com inteligência artificial.</p>
           </div>
         </div>
 
         <h2 className="heading"><span>Softwares</span></h2>
         <div className="projects-row">
           <div className="project-card">
-            <span className="project-tag">Data</span>
+            <span className="project-tag">Análise de Mercado - Machine Learning</span>
             <img src="/img/aracbot.png" alt="Logo AracBot" />
             <h3>AracBot</h3>
-            <p>Análise preditiva de mercado com múltiplas fontes, indicadores e machine learning.</p>
+            <p>Análise preditiva de mercado com múltiplas fontes, indicadores e padrões utilizando machine learning.</p>
           </div>
           <div className="project-card">
-            <span className="project-tag">GovTech</span>
+            <span className="project-tag">Reconhecimento Facial - OpenCV</span>
             <img src="/img/autogov.png" alt="Logo AutoGOV.BR" />
             <h3>AutoGOV.BR</h3>
             <p>Reconhecimento facial e validação documental para cenários críticos de atendimento.</p>
