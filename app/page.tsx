@@ -83,7 +83,7 @@ export default function Home() {
             <div className="hero-panel-card hero-panel-stack">
               <span className="panel-label">Stack principal</span>
               <ul className="stack-list">
-                <li>JavaScript, TypeScript, Python, C#,Lua</li>
+                <li>JavaScript, TypeScript, Python, C#, Lua</li>
                 <li>Next.js, React, Node.js, Firebase, MySQL</li>
                 <li>APIs, automação, IA e software corporativo</li>
               </ul>
