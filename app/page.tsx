@@ -119,27 +119,27 @@ export default function Home() {
             <div className="skills-box">
               <div className="skills-content">
                 <div className="progress">
-                  <h3>JavaScript <span>100%</span></h3>
+                  <h3>JavaScript/TypeScript<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Lua <span>100%</span></h3>
+                  <h3>Lua<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Python <span>100%</span></h3>
+                  <h3>Python<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>C# <span>80%</span></h3>
+                  <h3>C#<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>C++ <span>30%</span></h3>
+                  <h3>C++<span>Working knowledge</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
               </div>
@@ -184,32 +184,32 @@ export default function Home() {
               <div className="skills-content">
 
                 <div className="progress">
-                  <h3>Figma<span>100%</span></h3>
+                  <h3>Figma<span>Working knowledge</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>React<span>100%</span></h3>
+                  <h3>React<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Tailwild<span>100%</span></h3>
+                  <h3>Tailwild<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Next.js<span>80%</span></h3>
+                  <h3>Next.js<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Three.js<span>60%</span></h3>
+                  <h3>Three.js<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Canvas<span>60%</span></h3>
+                  <h3>Canvas<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
@@ -226,32 +226,32 @@ export default function Home() {
               <div className="skills-content">
 
                 <div className="progress">
-                  <h3>Node.js<span>100%</span></h3>
+                  <h3>Node.js<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Express.js<span>100%</span></h3>
+                  <h3>Web3<span>Intermediate</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>REST APIs<span>100%</span></h3>
+                  <h3>REST APIs<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>Autenticação JWT<span>100%</span></h3>
+                  <h3>Autenticação JWT<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Middleware<span>100%</span></h3>
+                    <h3>Middleware<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                  <h3>WebSockets<span>100%</span></h3>
+                  <h3>WebSockets<span>Working knowledge</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
@@ -268,32 +268,32 @@ export default function Home() {
               <div className="skills-content">
 
                 <div className="progress">
-                    <h3>Criptografia<span>100%</span></h3>
+                    <h3>Criptografia<span>Intermediate</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Segurança em APIs<span>100%</span></h3>
+                    <h3>Segurança em APIs<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Controle de acesso<span>100%</span></h3>
+                    <h3>Controle de acesso<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Hardening<span>100%</span></h3>
+                    <h3>Hardening<span>Working knowledge</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>OWASP Top 10<span>100%</span></h3>
+                    <h3>OWASP Top 10<span>Intermediate</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Wireshark<span>10%</span></h3>
+                    <h3>Wireshark<span>Working knowledge</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
@@ -307,32 +307,32 @@ export default function Home() {
               <div className="skills-content">
 
                 <div className="progress">
-                    <h3>Firebase<span>100%</span></h3>
+                    <h3>Firebase<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Supabase<span>100%</span></h3>
+                    <h3>Supabase<span>Working knowledge</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>MySQL/PostgreSQL<span>100%</span></h3>
+                    <h3>MySQL/PostgreSQL<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>MongoDB<span>100%</span></h3>
+                    <h3>MongoDB<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>SQL Server<span>100%</span></h3>
+                    <h3>SQL Server<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>PL/SQL<span>100%</span></h3>
+                    <h3>PL/SQL<span>Advanced</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
@@ -346,12 +346,12 @@ export default function Home() {
               <div className="skills-content">
 
                 <div className="progress">
-                    <h3>OpenCV<span>50%</span></h3>
+                    <h3>OpenCV<span>Working knowledge</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>Scilab<span>10%</span></h3>
+                    <h3>Scilab<span>Working knowledge</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
@@ -456,6 +456,22 @@ export default function Home() {
             <img src="/img/tonflower.png" alt="Logo TonFlower" />
             <h3>TonFlower</h3>
             <p>Game blockchain para Telegram com autenticação, transações e regras seguras de backend.</p>
+          </div>
+        </div>
+
+        <div className="projects-row">
+          <div className="project-card">
+            <span className="project-tag">SkyMP</span>
+            <img src="/img/terrasalem.png" alt="Logo Terras Além" />
+            <h3>Terras Além</h3>
+            <p>Servidor de Skyrim MMORPG com Core próprio, economia, PvP, inventario, quests e NPCs.</p>
+          </div>
+
+          <div className="project-card">
+            <span className="project-tag">Web</span>
+            <img src="/img/polycity.png" alt="Logo Poly City" />
+            <h3>PolyCity</h3>
+            <p>Game LowPoly procedural feito para navegador baseado em SimCity e CitiesSkylines, otimização baseada em chucks 32x32 estilo Minecraft</p>
           </div>
         </div>
       </section>
