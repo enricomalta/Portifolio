@@ -129,7 +129,7 @@ export default function Home() {
                 </div>
 
                 <div className="progress">
-                  <h3>Python<span>Intermediate</span></h3>
+                  <h3>Python<span>Advanced</span></h3>
                   <div className="bar"><span></span></div>
                 </div>
 
@@ -461,17 +461,17 @@ export default function Home() {
 
         <div className="projects-row">
           <div className="project-card">
-            <span className="project-tag">SkyMP</span>
+            <span className="project-tag">SkyMP C#/Typescript</span>
             <img src="/img/terrasalem.png" alt="Logo Terras Além" />
             <h3>Terras Além</h3>
             <p>Servidor MMORPG de Skyrim usando o SkyMP, foi desenvolvido um Core próprio, Laucher e Anti-Cheat exclusivo para o servidor com, economia, PvP, inventario, quests e NPCs.</p>
           </div>
 
           <div className="project-card">
-            <span className="project-tag">Web</span>
+            <span className="project-tag">Web Typescript</span>
             <img src="/img/polycity.png" alt="Logo Poly City" />
             <h3>PolyCity</h3>
-            <p>Game LowPoly procedural feito para navegador baseado em SimCity e CitiesSkylines, otimização baseada em chucks 32x32 estilo Minecraft</p>
+            <p>Game LowPoly procedural feito para navegador baseado em SimCity e CitiesSkylines, otimização baseada em chucks 32x32 estilo Minecraft.</p>
           </div>
         </div>
       </section>
