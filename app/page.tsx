@@ -464,7 +464,7 @@ export default function Home() {
             <span className="project-tag">SkyMP</span>
             <img src="/img/terrasalem.png" alt="Logo Terras Além" />
             <h3>Terras Além</h3>
-            <p>Servidor de Skyrim MMORPG com Core próprio, economia, PvP, inventario, quests e NPCs.</p>
+            <p>Servidor MMORPG de Skyrim usando o SkyMP, foi desenvolvido um Core próprio, Laucher e Anti-Cheat exclusivo para o servidor com, economia, PvP, inventario, quests e NPCs.</p>
           </div>
 
           <div className="project-card">
