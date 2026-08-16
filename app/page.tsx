@@ -5,7 +5,7 @@ export default function Home() {
         <>
       <header className="header">
         <a href="#home" className="logo">
-          <span className="logo-mark">EM</span>
+          {/* <span className="logo-mark">EM</span> */}
           <span className="logo-copy">Enrico Malta</span>
         </a>
 
@@ -57,7 +57,7 @@ export default function Home() {
 
             <div className="hero-stats">
               <div className="stat-card">
-                <strong>11+</strong>
+                <strong>14+</strong>
                 <span>produtos e protótipos publicados</span>
               </div>
               <div className="stat-card">
@@ -363,8 +363,8 @@ export default function Home() {
       </section>
 
       <section className="projects" id="projects">
-        <h2 className="heading">Meus Projetos<span> WEB</span></h2>
-        <p className="section-intro">Seleção de produtos com foco em experiência, arquitetura, automação e integração com serviços reais.</p>
+        <h2 className="heading">Meus Melhores<span> Projetos!</span></h2>
+        <p className="section-intro">Seleção dos melhores projetos com foco em experiência, arquitetura, automação e integração com serviços reais.</p>
 
         <div className="projects-row">
           <div className="project-card">
